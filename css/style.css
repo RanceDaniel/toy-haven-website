@@ -232,6 +232,10 @@ a {
   width: min(620px, 100%);
 }
 
+.hero-content .eyebrow {
+  color: var(--yellow);
+}
+
 .hero-content h1,
 .hero-content h2 {
   margin-bottom: 14px;
