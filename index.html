@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Shop collectible figurines, creative toys, board games and diecast cars at Toy Haven.">
+    <meta name="theme-color" content="#5b3df5">
+    <title>Toy Haven | Home</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/products.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="index.html">
+          <span class="logo-mark">TH</span>
+          Toy Haven
+        </a>
+        <button class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="index.html" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="products.html">Products</a>
+          </li>
+          <li>
+            <a href="wishlist.html">Wishlist</a>
+          </li>
+          <li>
+            <a href="support.html">Support</a>
+          </li>
+          <li>
+            <a href="cart.html">
+              Cart
+              <span class="cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section class="hero-slider" aria-label="Current promotions">
+        <article class="hero-slide active" data-slide="0">
+          <div class="hero-content">
+            <p class="eyebrow">Collectible favourites</p>
+            <h1>Meet your next favourite figurine</h1>
+            <p>Discover imaginative characters for collectors, display shelves and unforgettable gifts.</p>
+            <a class="primary-button" href="products.html">Shop Now</a>
+          </div>
+        </article>
+        <article class="hero-slide" data-slide="1">
+          <div class="hero-content">
+            <p class="eyebrow">Play without limits</p>
+            <h2>Creative toys for curious minds</h2>
+            <p>Find colourful toys made for creative play, discovery and everyday adventures.</p>
+            <a class="primary-button" href="products.html">Shop Now</a>
+          </div>
+        </article>
+        <article class="hero-slide" data-slide="2">
+          <div class="hero-content">
+            <p class="eyebrow">Game night starts here</p>
+            <h2>Bring everyone around the table</h2>
+            <p>Explore strategy, adventure and family board games for memorable nights together.</p>
+            <a class="primary-button" href="products.html">Shop Now</a>
+          </div>
+        </article>
+        <article class="hero-slide" data-slide="3">
+          <div class="hero-content">
+            <p class="eyebrow">Small cars big details</p>
+            <h2>Build your dream diecast collection</h2>
+            <p>Browse detailed model cars made for collectors and automotive enthusiasts.</p>
+            <a class="primary-button" href="products.html">Shop Now</a>
+          </div>
+        </article>
+        <div class="slider-controls" aria-label="Select promotion">
+          <button class="slider-dot active" type="button" data-slide-button="0" aria-label="Show figurines promotion"></button>
+          <button class="slider-dot" type="button" data-slide-button="1" aria-label="Show toys promotion"></button>
+          <button class="slider-dot" type="button" data-slide-button="2" aria-label="Show board games promotion"></button>
+          <button class="slider-dot" type="button" data-slide-button="3" aria-label="Show diecast promotion"></button>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Today’s pick</p>
+          <h2>Featured Product of the Day</h2>
+          <p>A different Toy Haven favourite is selected every day.</p>
+        </div>
+        <div id="featured-product"></div>
+      </section>
+      <section class="section">
+        <div class="newsletter reveal">
+          <div>
+            <p class="eyebrow">Stay in the loop</p>
+            <h2>New arrivals in your inbox</h2>
+            <p>Subscribe for product updates and Toy Haven promotions.</p>
+          </div>
+          <form id="newsletter-form" class="newsletter-form" novalidate>
+            <div class="field-group">
+              <label for="newsletter-email">Email address</label>
+              <input id="newsletter-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+            </div>
+            <button class="primary-button" type="submit">Subscribe</button>
+            <p class="form-message" id="newsletter-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <a class="logo" href="index.html">
+            <span class="logo-mark">TH</span>
+            Toy Haven
+          </a>
+          <p>Collectible favourites and playful discoveries for every age.</p>
+        </div>
+        <div>
+          <h3>Shop</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="products.html">All Products</a>
+            </li>
+            <li>
+              <a href="wishlist.html">Wishlist</a>
+            </li>
+            <li>
+              <a href="cart.html">Shopping Cart</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Help</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="support.html">Support and FAQ</a>
+            </li>
+            <li>
+              <a href="checkout.html">Checkout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <small>
+          ©
+          <span class="current-year">2026</span>
+          Toy Haven. Student project.
+        </small>
+      </div>
+    </footer>
+  </body>
+</html>

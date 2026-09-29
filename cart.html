@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Review and update your Toy Haven shopping cart.">
+    <meta name="theme-color" content="#5b3df5">
+    <title>Toy Haven | Cart</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/products.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="index.html">
+          <span class="logo-mark">TH</span>
+          Toy Haven
+        </a>
+        <button class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="products.html">Products</a>
+          </li>
+          <li>
+            <a href="wishlist.html">Wishlist</a>
+          </li>
+          <li>
+            <a href="support.html">Support</a>
+          </li>
+          <li>
+            <a href="cart.html" aria-current="page">
+              Cart
+              <span class="cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <header class="page-hero">
+        <div class="shell">
+          <p class="eyebrow">Your basket</p>
+          <h1>Shopping Cart</h1>
+          <p class="lede">Adjust quantities, remove items or continue securely to checkout.</p>
+        </div>
+      </header>
+      <section class="section" style="padding-top:24px">
+        <div class="cart-layout">
+          <div class="cart-list" id="cart-list"></div>
+          <aside class="summary-card" aria-labelledby="cart-summary-title">
+            <h2 id="cart-summary-title">Cart Summary</h2>
+            <div class="summary-row total">
+              <span>Total</span>
+              <span id="cart-total">Rs. 0.00</span>
+            </div>
+            <div class="button-row">
+              <a class="primary-button" id="checkout-link" href="checkout.html">Proceed to Checkout</a>
+              <button class="danger-button" id="clear-cart" type="button">Clear Cart</button>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <a class="logo" href="index.html">
+            <span class="logo-mark">TH</span>
+            Toy Haven
+          </a>
+          <p>Collectible favourites and playful discoveries for every age.</p>
+        </div>
+        <div>
+          <h3>Shop</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="products.html">All Products</a>
+            </li>
+            <li>
+              <a href="wishlist.html">Wishlist</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Help</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="support.html">Support and FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <small>
+          ©
+          <span class="current-year">2026</span>
+          Toy Haven. Student project.
+        </small>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Contact Toy Haven support and browse frequently asked questions.">
+    <meta name="theme-color" content="#5b3df5">
+    <title>Toy Haven | Support</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/products.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="index.html">
+          <span class="logo-mark">TH</span>
+          Toy Haven
+        </a>
+        <button class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="products.html">Products</a>
+          </li>
+          <li>
+            <a href="wishlist.html">Wishlist</a>
+          </li>
+          <li>
+            <a href="support.html" aria-current="page">Support</a>
+          </li>
+          <li>
+            <a href="cart.html">
+              Cart
+              <span class="cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <header class="page-hero">
+        <div class="shell">
+          <p class="eyebrow">We’re here to help</p>
+          <h1>Feedback and Support</h1>
+          <p class="lede">Send us a message or find a quick answer in the frequently asked questions.</p>
+        </div>
+      </header>
+      <section class="section" style="padding-top:24px">
+        <div class="support-layout">
+          <div class="form-card">
+            <h2>Send a Message</h2>
+            <form class="stack-form" id="feedback-form" novalidate>
+              <div class="field-group">
+                <label for="feedback-name">Name</label>
+                <input id="feedback-name" name="name" autocomplete="name" minlength="2" required>
+              </div>
+              <div class="field-group">
+                <label for="feedback-email">Email Address</label>
+                <input id="feedback-email" name="email" type="email" autocomplete="email" required>
+              </div>
+              <div class="field-group">
+                <label for="feedback-text">Message</label>
+                <textarea id="feedback-text" name="message" minlength="10" required></textarea>
+              </div>
+              <p class="form-message" id="feedback-message" aria-live="polite"></p>
+              <button class="primary-button" type="submit">Send Feedback</button>
+            </form>
+          </div>
+          <div class="faq-card">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+              <article class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false">
+                  How is my cart saved?
+                  <span>+</span>
+                </button>
+                <div class="faq-answer">
+                  <p>Your cart is stored in your browser using localStorage, so it remains available after refreshing the page.</p>
+                </div>
+              </article>
+              <article class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false">
+                  Can I track products I already own?
+                  <span>+</span>
+                </button>
+                <div class="faq-answer">
+                  <p>Yes. Save a product to your wishlist and change its collection status to Owned.</p>
+                </div>
+              </article>
+              <article class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false">
+                  Is payment processed online?
+                  <span>+</span>
+                </button>
+                <div class="faq-answer">
+                  <p>No. This student project simulates card and cash-on-delivery payment choices without processing real payments.</p>
+                </div>
+              </article>
+              <article class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false">
+                  Does the site work on mobile?
+                  <span>+</span>
+                </button>
+                <div class="faq-answer">
+                  <p>Yes. The layout adapts for mobile, tablet and desktop screens.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <a class="logo" href="index.html">
+            <span class="logo-mark">TH</span>
+            Toy Haven
+          </a>
+          <p>Collectible favourites and playful discoveries for every age.</p>
+        </div>
+        <div>
+          <h3>Shop</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="products.html">All Products</a>
+            </li>
+            <li>
+              <a href="wishlist.html">Wishlist</a>
+            </li>
+            <li>
+              <a href="cart.html">Shopping Cart</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Help</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="support.html">Support and FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <small>
+          ©
+          <span class="current-year">2026</span>
+          Toy Haven. Student project.
+        </small>
+      </div>
+    </footer>
+  </body>
+</html>
