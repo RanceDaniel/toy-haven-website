@@ -233,7 +233,10 @@ a {
 }
 
 .hero-content .eyebrow {
-  color: var(--yellow);
+  display: inline-block;
+  padding: 4px 8px;
+  color: var(--white);
+  background: var(--text);
 }
 
 .hero-content h1,
