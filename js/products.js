@@ -2,12 +2,12 @@
 const PRODUCTS = [
   {
     id: 1,
-    name: "Space Hero Figure",
+    name: "HellBoy Figurine",
     category: "figurines",
     categoryLabel: "Figurines",
     price: 3500,
     image: "assets/figurine-hero.jpg",
-    description: "A detailed action figure for collectors and children."
+    description: "A detailed HellBoy figurine for collectors and fans."
   },
   {
     id: 2,
