@@ -1,4 +1,4 @@
-const CACHE_NAME = "toy-haven-simple-v2";
+const CACHE_NAME = "toy-haven-simple-v3";
 
 const APP_FILES = [
   "./",
